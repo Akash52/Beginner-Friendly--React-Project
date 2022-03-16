@@ -20,9 +20,9 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        {/* <Route path='/home' element={<TabApp />}></Route>
+        <Route path='/home' element={<TabApp />} />
         <Route path='/tab' element={<TabApp />} />
-        <Route path='/todo' element={<TodoList />} />
+        <Route path='/todo1' element={<TodoList />} />
         <Route path='/todo2' element={<TodoList2 />} />
         <Route path='/menu' element={<MenuApp />} />
         <Route path='/tours' element={<TourApp />} />
@@ -31,10 +31,10 @@ export default function App() {
         <Route path='/slider' element={<SliderApp />} />
         <Route path='/shopping' element={<ShoppingApp />} />
         <Route path='/table' element={<UserList />} />
-        <Route path='/birthday' element={<Birthday />} /> */}
-        {/* <Route path='/colors' element={<ColorApp />} /> */}
-        {/* <Route path='/gallery' element={<GallaryApp />} /> */}
-        <Route path='/todo' element={<TodoApp />} />
+        <Route path='/birthday' element={<Birthday />} />
+        <Route path='/colors' element={<ColorApp />} />
+        <Route path='/gallery' element={<GallaryApp />} />
+        <Route path='/todo3' element={<TodoApp />} />
       </Routes>
     </Router>
   );

@@ -14,6 +14,7 @@ import UserList from './Table/UserList';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ColorApp from './10_colors/ColorsApp';
 import GallaryApp from './11_Gallery/GallaryApp';
+import TodoApp from './12_Todo/TodoApp';
 
 export default function App() {
   return (
@@ -33,6 +34,7 @@ export default function App() {
         <Route path='/birthday' element={<Birthday />} /> */}
         {/* <Route path='/colors' element={<ColorApp />} /> */}
         {/* <Route path='/gallery' element={<GallaryApp />} /> */}
+        <Route path='/todo' element={<TodoApp />} />
       </Routes>
     </Router>
   );
